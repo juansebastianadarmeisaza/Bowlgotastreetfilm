@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-size: 100%;
+    vertical-align: baseline;
+ }
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #282bf5;
+    background: rgba(0, 0, 0, 0.5);
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+.logo{
+    margin: 30px;
+
+}
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.navbar a:hover{
+    background: #3f3f3f;
+}
+.header p{
+    color: #030a46;
+    text-transform: uppercase;
+    text-transform: uppercase;
+   font-weight: bold;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 100vh !important;
+    background: url(imagenes/wp4685613.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+.tittle{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600%;
+    text-transform: uppercase;
+    color: #dd3c3c;
+}
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #e01d1d;
+}
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #000000;
+    color: #000000;
+    text-decoration: none;
+    background: #5c5c83;
+}
+.btn:hover{
+    background: none;
+}
+.btn-home {
+    display: flex;
+}
+.btn-home a{
+    margin: 0 10px;
+}
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    height: 60vh;
+    padding: 150px;
+
+}
+.content-sau{
+    height: 120vh;
+    background-size: cover !important;
+    background:url(imagenes/skateboarding-skate-skatepark-wallpaper-preview.jpg) no-repeat
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    text-decoration: none;
+}
+.sau .box-container .btn a {
+  color: #000000;
+    text-decoration: none;
+}
+.box-container .box{
+    height: 11rem;
+    width: 20rem;
+    background: #151661;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow:0 .3 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+
+}
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #2767b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.box-container .box h3{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.about{
+    background: #302a47;
+    height: 100vh;
+}
+.contact {
+    padding-top: 30px;
+    background: #171717;
+    padding-bottom: 0;
+
+}
+@media (max-width: 768px) {
+
+    .tittle {
+        margin-bottom: 0;
+        font-size: 40px;
+
+    }
+    .sau{
+        height: 120vh;
+    }
+    .navbar {
+        display: none;
+    }
+}
